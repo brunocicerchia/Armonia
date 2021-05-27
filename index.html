@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colegio Armonia</title>
+    <!-- CSS only -->    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="//db.onlinewebfonts.com/c/3a861ecacbb23f33b2bb683e90c45e31?family=Optima+nova+LT" rel="stylesheet" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Pattaya&family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="sliderText();">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
+            <div class="container-fluid">
+                <a class="navbar-brand titulo mt-1" href="#"><h1 style="color: #083A81;">ARMONIA</h1></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Institucional</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Nivel Inicial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Nivel Primario</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Nivel Secundario</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Nivel Superior</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Proyectos</a>
+                        </li>                      
+                    </ul>
+                    <button class="btn btn-outline-primary d-flex">Contactenos</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Slider -->
+        <div class="container-fluid header" style="margin:0; padding:0;">
+            <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active position-relative">
+                    <img src="images/slider1.jpg" class="img img-fluid d-block w-100 image-blur">
+                    <h3 class="position-absolute text-center slider-text start-50 translate-middle" style="color: aliceblue;">Queremos formar personas íntegras, capaces de integrarse<br>a una sociedad exigente y cambiante.</h3>
+                  </div>
+                  <div class="carousel-item position-relative">
+                    <img src="images/slider2.jpg" class="img img-fluid d-block w-100 image-blur">
+                    <h3 class="position-absolute text-center slider-text start-50 translate-middle" style="color: aliceblue;">Queremos formar personas íntegras, capaces de integrarse<br>a una sociedad exigente y cambiante.</h3>
+                  </div>
+                  <div class="carousel-item position-relative">
+                    <img src="images/slider3.jpg" class="img img-fluid d-block w-100 image-blur">
+                    <h3 class="position-absolute text-center slider-text start-50 translate-middle" style="color: aliceblue;">Queremos formar personas íntegras, capaces de integrarse<br>a una sociedad exigente y cambiante.</h3>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <!-- Main -->
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="texto"><b>Conoce nuestra propuesta!</b></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <video class="embed-responsive-item video-armonia" src="images/video_presentacion.mp4#t=2.5" preload="metadata" controls></video>
+                </div>
+                <div class="col-md-4">
+                    <p class="texto">Armonia es una Unidad Académica, que ofrece los Niveles educativos: Inicial – Primario – Secundario – Superior. Desde su fundación, en 1992 ofrece a la comunidad de Campana una alternativa educativa donde considera a la educación como el bien más preciado que podemos adquirir, siendo por excelencia un servicio a la comunidad, asumiéndolo como un compromiso, plasmado en realidades plenas de participación, esfuerzo y calidad, para niños, jóvenes y adultos con aspiraciones. Queremos formar personas íntegras, capaces de integrarse a una sociedad exigente y cambiante, disfrutando de la posibilidad de acceder al conocimiento. Por ello nos ocupamos que el servicio educativo esté actualizado acorde a las necesidades de este siglo siendo la formación académica integral, la formación bilingüe y la tecnología digital la nueva etapa de crecimiento del colegio.</p>
+                    <p>Cordialmente</p>
+                    <p><b>Lic. Nora Taret
+                       Directora General</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mt-5">
+            <div class="row link">
+                <h3 class="texto text-center mt-3" style="color: white;"><b>Alianzas estrategicas!</b></h3>
+            </div>
+            <div class="row link d-flex justify-content-center">
+                <div class="col-md-2">
+                    <img src="images/Google_Ref.png" class="img img-fluid" style="padding: 20px; border-radius: 25px;">
+                </div>
+                <div class="col-md-2">
+                    <img src="images/essarp.png" class="img img-fluid" height="15%">
+                </div>
+                <div class="col-md-2 mt-4 mt-xs-0">
+                    <img src="images/logo-DH.png" class="img img-fluid" height="15%">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- JavaScript Bundle with Popper -->
+    <script type="text/javascript" src="instafeed.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
