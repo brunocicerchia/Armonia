@@ -32,11 +32,11 @@
 @media (max-width: 470px) {
     .slider-text {
         font-family: 'Limelight', cursive;
-        top: 20vh;
+        visibility: hidden;
     }
 
     .image-blur {
-        filter: blur(3.5px);
+        filter: blur(0px);
         height: 40vh;
     }
 
