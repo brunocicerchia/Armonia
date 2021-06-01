@@ -39,6 +39,10 @@
         filter: blur(3.5px);
         height: 40vh;
     }
+
+    .video_presentacion {
+        width: 100%;
+    }
 }
 
 @media (max-height: 650px) {
@@ -47,9 +51,14 @@
     }
 
     .image-blur {
-        filter: blur(3.5px);
+        filter: blur(0px);
         height: 40vh;
     }
+}
+
+.video_presentacion {
+    height: 500px;
+    padding: 20px;
 }
 
 .nota {
