@@ -45,17 +45,6 @@
     }
 }
 
-@media (max-height: 650px) {
-    .slider-text {
-        visibility: hidden;
-    }
-
-    .image-blur {
-        filter: blur(0px);
-        height: 40vh;
-    }
-}
-
 .video_presentacion {
     height: 500px;
     padding: 20px;
